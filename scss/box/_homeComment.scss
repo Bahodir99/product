@@ -1,0 +1,120 @@
+.comment{
+    margin-top: 150px;
+    margin-bottom: 160px;
+}
+.comment__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.comment__title{
+    margin-bottom: 8px;
+    font-size: 34px;
+    line-height: 50px;
+    font-weight: 700;
+    color: $darkBlack;
+}
+.comment__text{
+    margin-bottom: 50px;
+    max-width: 537px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    color: $darkBlack;
+}
+.comment__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.comment__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment__item{
+    margin-left: 65px;
+    text-align: left;
+    padding: 24px 41px;
+    width: 400px;
+    height: 279px;
+    border: 1px solid #fff;
+    border-radius: 14px;
+    box-shadow:  0px 2px 8px rgba(0, 0, 0, 0.25);
+    p{
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: $darkBlack;
+        margin: 16px 0;
+    }
+}
+.comment__info{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    img{
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
+        margin-right: 16px;
+    }
+}
+span{
+    b{
+        color: $lightGreen;
+    }
+    p{
+        color: $darkBlack;
+    }
+}
+
+@media (max-width:1400px){
+    .comment__list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .comment__item{
+        margin-top: 40px;
+    }
+}
+@media (max-width:518px){
+    .comment__item{
+        max-width: 340px;
+        max-height: 200px;
+        p{
+            font-size: 13px;
+            margin:2px 0;
+        }
+    .comment__info{
+        img{
+            max-width: 50px;
+            max-height: 50px;
+        }
+    }
+    }
+
+
+}
+
+@media (max-width:460px){
+    .comment__item{
+        max-width: 270px;
+        max-height: 200px;
+        p{
+            font-size: 8px;
+            margin: 0;
+        }
+    .comment__info{
+        img{
+            max-width: 50px;
+            max-height: 50px;
+        }
+    }
+    }
+}

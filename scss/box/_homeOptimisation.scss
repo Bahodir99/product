@@ -1,0 +1,147 @@
+.optimisation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.optimisation__banner{
+    max-width: 510px;
+    margin-left: 80px;
+}
+.optimisation__list{
+    max-width: 490px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.optimisation__item{
+    max-width: 486px;
+}
+.optimisation__sub{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: $darkBlack;
+}
+.optimisation__title{
+    margin-bottom: 23px;
+    font-size: 32px;
+    line-height: 48px;
+    color: $darkBlack;
+    font-weight: 700;
+}
+.optimisation__text{
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: $darkBlack;
+    font-weight: 500;
+}
+.optimisation__name{
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+@media (max-width:1100px){
+    .optimisation__banner{
+        max-width: 440px;
+    }
+}
+@media (max-width:1050px){
+    .optimisation{
+        align-items: center;
+        justify-content: center;
+    }
+    .optimisation__banner{
+        max-width: 340px;
+    }
+    .optimisation__list{
+        max-width: 400px;
+    }
+    .optimisation__item{
+        max-width: 380px;
+    }
+}
+@media (max-width:840px){
+    .optimisation{
+        align-items: center;
+        justify-content: center;
+    }
+    .optimisation__list{
+        max-width: 350px;
+    }
+    .optimisation__item{
+        max-width: 320px;
+    }
+}
+@media (max-width:710px){
+    .optimisation__banner{
+        max-width: 290px;
+    }
+    .optimisation__list{
+        max-width: 300px;
+    }
+    .optimisation__item{
+        max-width: 250px;
+    }
+}
+@media (max-width:670px){
+    .optimisation__banner{
+        max-width: 260px;
+    }
+    .optimisation__list{
+        max-width: 255px;
+    }
+    .optimisation__item{
+        max-width: 200px;
+    }
+}
+@media (max-width:650px){
+    .optimisation{
+        flex-direction: column-reverse;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+    .optimisation__list{
+        margin-top: 40px;
+        max-width: 400px;
+    }
+    .optimisation__item{
+        max-width: 400px;
+    }
+}
+@media (max-width:500px){
+    .optimisation{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .optimisation__banner{
+        max-width: 255px;
+    }
+}
+@media (max-width:455px){
+    .optimisation{
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+    .optimisation__banner{
+        max-width: 230px;
+    }
+}
+
+@media (max-width:395px){
+    .optimisation{
+        align-items: center;
+        justify-content: center;
+    }
+    .optimisation__banner{
+        max-width: 200px;
+    }
+}

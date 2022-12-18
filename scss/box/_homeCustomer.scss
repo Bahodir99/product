@@ -1,0 +1,124 @@
+.customer{
+    padding-top: 190px;
+    padding-bottom: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.customer__img{
+    max-width: 470px;
+}
+.customer__list{
+    max-width: 486px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.customer__item{
+    display: block;
+}
+.customer__sub{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: $darkBlue;
+}
+.customer__title{
+    margin-bottom: 23px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: $darkBlue
+}
+.customer__text{
+    max-width: 486px;
+    font-size: 16px;
+    line-height: 26px;
+    color: $darkBlue;
+}
+
+.customer__item:nth-child(4){
+    display: flex;
+    margin-top: 30px;
+    img{
+        width: 30px;
+        height: 30px;
+        margin-right: 30px;
+    }
+}
+.customer__item:nth-child(5){
+    display: flex;
+    margin-top: 30px;
+    img{
+        width: 30px;
+        height: 30px;
+        margin-right: 30px;
+    }
+}
+.customer__item:nth-child(6){
+    display: flex;
+    margin-top: 30px;
+    img{
+        width: 30px;
+        height: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width:1040px){
+    .customer{
+        justify-content: space-around;
+    }
+    .customer__img{
+        max-width: 320px;
+    }    
+    .customer__list{
+        max-width: 320px;
+    }
+}
+
+@media (max-width:780px){
+    .customer{
+        flex-wrap: wrap;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .customer__sub{
+        margin-top: 29px;
+    }
+    .customer__img{
+        max-width: 280px;
+    } 
+}
+
+@media (max-width:650px){
+    .customer{
+        margin-bottom: 40px;
+        text-align: left;
+    }
+}
+
+@media (max-width:400px){
+    .customer{
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .customer__text{
+        max-width: 400px;
+    }   
+    .customer__item:nth-child(4){
+        flex-wrap: wrap;
+        max-width: 400px;
+    }
+    .customer__item:nth-child(5){
+        flex-wrap: wrap;
+        max-width: 400px;
+    }
+    .customer__item:nth-child(6){
+        flex-wrap: wrap;
+        max-width: 400px;
+    }
+}

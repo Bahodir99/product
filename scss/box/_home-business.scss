@@ -1,0 +1,128 @@
+.business{
+    margin-bottom: 300px;
+}
+.business__content{
+    background-color: $lightGreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 32px;
+}
+.business__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.business__item{
+    padding: 50px 50px;
+    h2{
+        margin-bottom: 100px;
+        font-size: 35px;
+        line-height: 52px;
+        color: white;
+        max-width: 510px;
+    }
+    button{
+        width: 200px;
+        height: 60px;
+        background-color: $darkBlue;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        transition: all ease 0.8s;
+        cursor: pointer;
+        background-color: white;
+        color: $lightGreen;
+    }
+    img{
+        max-width: 351px;
+    }
+}
+
+@media (max-width:1170px){
+    .business__content{
+        max-width: 1000px;
+    }
+    .business__list{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .business__item{
+        h2{
+            font-size: 24px;
+            line-height: 30px;
+            max-width: 400px;
+        }
+        img{
+            max-width: 300px;
+        }       
+    }
+}
+@media (max-width:1060px){
+    .business__content{
+        max-width: 900px;
+    }
+    .business__list{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .business__item{
+        h2{
+            font-size: 24px;
+            line-height: 30px;
+            max-width: 400px;
+        }
+        img{
+            max-width: 300px;
+        }       
+    }   
+}
+@media (max-width:960px){
+    .business__content{
+        margin: 0 auto;
+        max-width: 700px;
+    }
+    .business__list{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .business__item{
+        h2{
+            font-size: 16px;
+            line-height: 30px;
+            max-width: 200px;
+        }
+        img{
+            max-width: 250px;
+        }       
+    }    
+}
+@media (max-width:760px){
+    .business__content{
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    .business__list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .business__item{
+        align-items: center;
+        justify-content: center;
+        h2{
+            font-size: 26px;
+            line-height: 30px;
+            max-width: 200px;
+        }
+        img{
+            max-width: 250px;
+        }       
+    }    
+}
