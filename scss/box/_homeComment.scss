@@ -78,15 +78,22 @@ span{
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
     }
     .comment__item{
-        margin-top: 40px;
+        margin:20px 0;
     }
 }
 @media (max-width:518px){
+    .comment__list{
+        padding: 0;
+        margin: 0;
+    }
     .comment__item{
         max-width: 340px;
         max-height: 200px;
+       margin: 20px 0;
         p{
             font-size: 13px;
             margin:2px 0;
@@ -103,9 +110,14 @@ span{
 }
 
 @media (max-width:460px){
+    .comment__list{
+        padding: 0;
+        margin: 0;
+    }
     .comment__item{
         max-width: 270px;
         max-height: 200px;
+        margin-left: 0;
         p{
             font-size: 8px;
             margin: 0;

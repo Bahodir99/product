@@ -1,6 +1,12 @@
 footer{
     margin-bottom: 270px;
 }
+.footer__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
 .footer__list{
     display: flex;
     align-items: center;
@@ -78,6 +84,16 @@ span{
         margin-left: 25px;
     }
 }
+.footer__text{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: $darkBlack;
+    margin-top: 37px;
+    max-width: 394px;
+    text-align: center;
+} 
+
 
 @media (max-width:1370px){
     .footer__item{

@@ -1188,6 +1188,7 @@ header {
   }
   .price__list {
     display: block;
+    margin-top: 20px;
     padding: 16px 55px;
     margin-right: 0;
   }
@@ -1279,15 +1280,22 @@ span p {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
   }
   .comment__item {
-    margin-top: 40px;
+    margin: 20px 0;
   }
 }
 @media (max-width: 518px) {
+  .comment__list {
+    padding: 0;
+    margin: 0;
+  }
   .comment__item {
     max-width: 340px;
     max-height: 200px;
+    margin: 20px 0;
   }
   .comment__item p {
     font-size: 13px;
@@ -1299,9 +1307,14 @@ span p {
   }
 }
 @media (max-width: 460px) {
+  .comment__list {
+    padding: 0;
+    margin: 0;
+  }
   .comment__item {
     max-width: 270px;
     max-height: 200px;
+    margin-left: 0;
   }
   .comment__item p {
     font-size: 8px;
@@ -1378,6 +1391,9 @@ span p {
   }
 }
 @media (max-width: 1060px) {
+  .business {
+    padding: 0;
+  }
   .business__content {
     max-width: 900px;
   }
@@ -1396,6 +1412,9 @@ span p {
   }
 }
 @media (max-width: 960px) {
+  .business {
+    padding: 0;
+  }
   .business__content {
     margin: 0 auto;
     max-width: 700px;
@@ -1415,6 +1434,9 @@ span p {
   }
 }
 @media (max-width: 760px) {
+  .business {
+    padding: 0;
+  }
   .business__content {
     margin: 0 auto;
     max-width: 400px;
@@ -1427,6 +1449,7 @@ span p {
   .business__item {
     align-items: center;
     justify-content: center;
+    padding: 20px 20px;
   }
   .business__item h2 {
     font-size: 26px;
@@ -1439,6 +1462,13 @@ span p {
 }
 footer {
   margin-bottom: 270px;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .footer__list {
@@ -1517,6 +1547,16 @@ span {
 }
 span a {
   margin-left: 25px;
+}
+
+.footer__text {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #22343D;
+  margin-top: 37px;
+  max-width: 394px;
+  text-align: center;
 }
 
 @media (max-width: 1370px) {

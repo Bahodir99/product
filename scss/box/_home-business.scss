@@ -63,6 +63,9 @@
     }
 }
 @media (max-width:1060px){
+    .business{
+        padding: 0;
+    }
     .business__content{
         max-width: 900px;
     }
@@ -83,6 +86,9 @@
     }   
 }
 @media (max-width:960px){
+    .business{
+        padding: 0;
+    }
     .business__content{
         margin: 0 auto;
         max-width: 700px;
@@ -104,6 +110,9 @@
     }    
 }
 @media (max-width:760px){
+    .business{
+        padding: 0;
+    }
     .business__content{
         margin: 0 auto;
         max-width: 400px;
@@ -116,6 +125,7 @@
     .business__item{
         align-items: center;
         justify-content: center;
+        padding: 20px 20px;
         h2{
             font-size: 26px;
             line-height: 30px;
