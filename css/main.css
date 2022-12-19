@@ -1189,7 +1189,7 @@ header {
   .price__list {
     display: block;
     padding: 16px 55px;
-    margin: 0;
+    margin-right: 0;
   }
 }
 .comment {
