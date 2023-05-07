@@ -9,9 +9,16 @@ footer{
 }
 .footer__list{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
+.footer__item1{
+    margin-top:  45px;
+}
+.footer__item2{
+    margin-top: 10px;
+}
+
 .footer__item{
     display: flex;
     justify-content: space-between;
@@ -94,6 +101,16 @@ span{
     text-align: center;
 } 
 
+
+.footer__line{
+    align-items: center;
+    justify-content: center;
+    min-width: 132px;
+    min-height: 140px;
+    b{
+        width: 145px;
+    }
+}
 
 @media (max-width:1370px){
     .footer__item{
